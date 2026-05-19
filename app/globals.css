@@ -35,3 +35,22 @@ body {
     opacity: 1;
   }
 }
+
+/* Hide Clerk Development Mode notice / safe badge */
+.cl-internal-b38t6s,
+.cl-internal-1hq4q91,
+.cl-internal-157nyp,
+.cl-internal-b38t6s,
+.cl-internal-1hq4q91,
+.cl-devButton,
+.cl-badge,
+[data-testid="safe-badge"],
+div[class*="cl-internal-"][class*="badge"],
+span[class*="cl-internal-"][class*="badge"] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  height: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
